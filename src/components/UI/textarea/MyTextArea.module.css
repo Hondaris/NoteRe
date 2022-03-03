@@ -1,0 +1,7 @@
+.myTextarea {
+  min-width: 600px;
+  min-height: 300px;
+  padding: 5px 15px;
+  margin: 5px 0;
+  border: 1px solid teal;
+}
