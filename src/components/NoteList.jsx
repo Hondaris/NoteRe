@@ -1,9 +1,9 @@
 import React from 'react'
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
-import PostItem from './PostItem'
+import NoteItem from './NoteItem'
 
-const PostList = ({ remove, posts, title }) => {
-  if (!posts.length) {
+const NoteList = ({ remove, notes, title }) => {
+  if (!notes.length) {
     return <h1 style={{ textAlign: 'center' }}>Заметки не найдены!</h1>
   }
 
@@ -11,9 +11,9 @@ const PostList = ({ remove, posts, title }) => {
     <div>
       <h1 style={{ textAlign: 'center' }}>{title}</h1>
       <TransitionGroup>
-        {posts.map((post, index) => (
-          <CSSTransition key={post.id} timeout={500} classNames="post">
-            <PostItem remove={remove} number={index + 1} post={post} />
+        {notes.map((note, index) => (
+          <CSSTransition key={note.id} timeout={500} classNames="note">
+            <NoteItem remove={remove} number={index + 1} note={note} />
           </CSSTransition>
         ))}
       </TransitionGroup>
@@ -21,4 +21,4 @@ const PostList = ({ remove, posts, title }) => {
   )
 }
 
-export default PostList
+export default NoteList
