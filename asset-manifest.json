@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/NoteRe-p/static/css/main.32aea0b8.css",
+    "main.css": "/NoteRe-p/static/css/main.a220b7fc.css",
     "main.js": "/NoteRe-p/static/js/main.4380598a.js",
     "static/media/Note.png": "/NoteRe-p/static/media/Note.f4af94b7d94cfcd0494b.png",
     "index.html": "/NoteRe-p/index.html",
-    "main.32aea0b8.css.map": "/NoteRe-p/static/css/main.32aea0b8.css.map",
+    "main.a220b7fc.css.map": "/NoteRe-p/static/css/main.a220b7fc.css.map",
     "main.4380598a.js.map": "/NoteRe-p/static/js/main.4380598a.js.map"
   },
   "entrypoints": [
-    "static/css/main.32aea0b8.css",
+    "static/css/main.a220b7fc.css",
     "static/js/main.4380598a.js"
   ]
 }
